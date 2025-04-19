@@ -1,0 +1,446 @@
+{
+    "stop_djvu": {
+        "description": "STOP Djvu ransomware (offline variant)",
+        "module": "stop_djvu",
+        "key_type": "string",
+        "extension": ".djvu"
+    },
+    "gandcrab": {
+        "description": "GandCrab ransomware (v1\u2013v5) with known RSA private key",
+        "module": "gandcrab",
+        "key_type": "string",
+        "extension": ".gandcrab"
+    },
+    "teslacrypt": {
+        "description": "TeslaCrypt ransomware (v3/v4) with known AES key",
+        "module": "teslacrypt",
+        "key_type": "static",
+        "extension": ".vvv"
+    },
+    "jigsaw": {
+        "description": "Jigsaw ransomware (known AES key)",
+        "module": "jigsaw",
+        "key_type": "file",
+        "extension": ".jigsaw"
+    },
+    "globeimposter": {
+        "description": "GlobeImposter 2.0 ransomware with known AES key",
+        "module": "globeimposter",
+        "key_type": "static",
+        "extension": ".globe"
+    },
+    "dharma": {
+        "description": "Dharma / Crysis ransomware (offline variant)",
+        "module": "dharma",
+        "key_type": "static",
+        "extension": ".wallet"
+    },
+    "xorist": {
+        "description": "Xorist ransomware using XOR cipher",
+        "module": "xorist",
+        "key_type": "int",
+        "extension": ".xor"
+    },
+    "avaddon": {
+        "description": "Avaddon ransomware with leaked RSA private key",
+        "module": "avaddon",
+        "key_type": "static",
+        "extension": ".avdn"
+    },
+    "hiddentear": {
+        "description": "HiddenTear educational ransomware (default AES/IV)",
+        "module": "hiddentear",
+        "key_type": "static",
+        "extension": ".locked"
+    },
+    "aesni": {
+        "description": "AES-NI ransomware (early leaked AES key)",
+        "module": "aesni",
+        "key_type": "static",
+        "extension": ".aes_ni"
+    },
+    "btcware": {
+        "description": "BTCWare ransomware with leaked AES key",
+        "module": "btcware",
+        "key_type": "static",
+        "extension": ".btcware"
+    },
+    "sage": {
+        "description": "Sage / 8lock8 ransomware with leaked RSA private key",
+        "module": "sage",
+        "key_type": "static",
+        "extension": ".sage"
+    },
+    "petya": {
+        "description": "Petya ransomware boot/MFT decryptor (Salsa20)",
+        "module": "petya",
+        "key_type": "static",
+        "extension": ".bin"
+    },
+    "cryakl": {
+        "description": "Cryakl (Fantom) ransomware with leaked AES key",
+        "module": "cryakl",
+        "key_type": "static",
+        "extension": ".cryakl"
+    },
+    "nemucod": {
+        "description": "Nemucod ransomware (JavaScript AES-128-ECB variant)",
+        "module": "nemucod",
+        "key_type": "static",
+        "extension": ".crypted"
+    },
+    "zerocrypt": {
+        "description": "ZeroCrypt ransomware with static AES key and IV",
+        "module": "zerocrypt",
+        "key_type": "static",
+        "extension": ".zero"
+    },
+    "eightlocker": {
+        "description": "8locker ransomware with static AES key and IV",
+        "module": "eightlocker",
+        "key_type": "static",
+        "extension": ".8lock8"
+    },
+    "mamba": {
+        "description": "Mamba ransomware (full disk AES encryption)",
+        "module": "mamba",
+        "key_type": "static",
+        "extension": ".img"
+    },
+    "thanos": {
+        "description": "Thanos / Hakbit ransomware with static AES key and IV",
+        "module": "thanos",
+        "key_type": "static",
+        "extension": ".thanos"
+    },
+    "haron": {
+        "description": "Haron / SynAck ransomware with known AES key and IV",
+        "module": "haron",
+        "key_type": "static",
+        "extension": ".haron"
+    },
+    "blackbyte": {
+        "description": "BlackByte ransomware with leaked AES key and IV",
+        "module": "blackbyte",
+        "key_type": "static",
+        "extension": ".blackbyte"
+    },
+    "hive": {
+        "description": "Hive ransomware (FBI leaked AES decryptor)",
+        "module": "hive",
+        "key_type": "static",
+        "extension": ".hive"
+    },
+    "babuk": {
+        "description": "Babuk ransomware (source code based AES decryptor)",
+        "module": "babuk",
+        "key_type": "static",
+        "extension": ".babuk"
+    },
+    "cheerscrypt": {
+        "description": "Cheerscrypt ransomware with leaked AES key",
+        "module": "cheerscrypt",
+        "key_type": "static",
+        "extension": ".cheers"
+    },
+    "maze": {
+        "description": "Maze ransomware (partial decryptor with optional RSA key)",
+        "module": "maze",
+        "key_type": "file",
+        "extension": ".maze"
+    },
+    "revil": {
+        "description": "REvil / Sodinokibi ransomware (partial decryptor with RSA support)",
+        "module": "revil",
+        "key_type": "file",
+        "extension": ".revil"
+    },
+    "darkside": {
+        "description": "DarkSide ransomware (decrypt with leaked or provided RSA key)",
+        "module": "darkside",
+        "key_type": "file",
+        "extension": ".darkside"
+    },
+    "netwalker": {
+        "description": "NetWalker ransomware (partial decryptor with optional RSA key)",
+        "module": "netwalker",
+        "key_type": "file",
+        "extension": ".netwalker"
+    },
+    "lockbit": {
+        "description": "LockBit v1/v2 ransomware (partial decryptor with RSA support)",
+        "module": "lockbit",
+        "key_type": "file",
+        "extension": ".lockbit"
+    },
+    "cryptowall": {
+        "description": "CryptoWall ransomware (partial support)",
+        "module": "cryptowall",
+        "key_type": "static",
+        "extension": ".cryptowall"
+    },
+    "locky": {
+        "description": "Locky ransomware (Zepto/Odin variants)",
+        "module": "locky",
+        "key_type": "static",
+        "extension": ".locky"
+    },
+    "torrentlocker": {
+        "description": "TorrentLocker ransomware (partial RSA)",
+        "module": "torrentlocker",
+        "key_type": "static",
+        "extension": ".enc"
+    },
+    "cryptodefense": {
+        "description": "CryptoDefense ransomware",
+        "module": "cryptodefense",
+        "key_type": "static",
+        "extension": ".crypt"
+    },
+    "cerber": {
+        "description": "Cerber ransomware (early variants)",
+        "module": "cerber",
+        "key_type": "static",
+        "extension": ".cerber"
+    },
+    "chimera": {
+        "description": "Chimera ransomware (AES/CBC)",
+        "module": "chimera",
+        "key_type": "static",
+        "extension": ".chimera"
+    },
+    "apocalypse": {
+        "description": "Apocalypse ransomware (Avast/Emsisoft decryptable)",
+        "module": "apocalypse",
+        "key_type": "file",
+        "extension": ".apocalypse"
+    },
+    "scarab": {
+        "description": "Scarab ransomware (partial)",
+        "module": "scarab",
+        "key_type": "static",
+        "extension": ".scarab"
+    },
+    "matrix": {
+        "description": "Matrix ransomware (static key variants)",
+        "module": "matrix",
+        "key_type": "static",
+        "extension": ".matrix"
+    },
+    "aurora": {
+        "description": "Aurora ransomware",
+        "module": "aurora",
+        "key_type": "static",
+        "extension": ".aurora"
+    },
+    "rapid": {
+        "description": "Rapid ransomware",
+        "module": "rapid",
+        "key_type": "static",
+        "extension": ".rapid"
+    },
+    "cryptoorbit": {
+        "description": "CryptoOrbit ransomware",
+        "module": "cryptoorbit",
+        "key_type": "static",
+        "extension": ".orbit"
+    },
+    "reveton": {
+        "description": "Reveton/Urausy (screen locker)",
+        "module": "reveton",
+        "key_type": "static",
+        "extension": ".rev"
+    },
+    "gpcoder": {
+        "description": "GPCoder ransomware (old RSA)",
+        "module": "gpcoder",
+        "key_type": "static",
+        "extension": ".gpcoder"
+    },
+    "tesladecoder": {
+        "description": "TeslaDecoder-compatible (v1\u2013v2)",
+        "module": "tesladecoder",
+        "key_type": "static",
+        "extension": ".ecc"
+    },
+    "accdfisa": {
+        "description": "ACCDFISA ransomware",
+        "module": "accdfisa",
+        "key_type": "static",
+        "extension": ".accdfisa"
+    },
+    "hush": {
+        "description": "Hush ransomware (pending key - future support)",
+        "module": "hush",
+        "key_type": "file",
+        "extension": ".hush"
+    },
+    "akira": {
+        "description": "Akira ransomware (zero-day, RSA/AES hybrid, no decryptor)",
+        "module": "akira",
+        "key_type": "file",
+        "extension": ".akira"
+    },
+    "rhysida": {
+        "description": "Rhysida ransomware (no decryptor yet, AES/RSA)",
+        "module": "rhysida",
+        "key_type": "file",
+        "extension": ".rhysida"
+    },
+    "rorschach": {
+        "description": "Rorschach ransomware (hybrid encryption, zero-day)",
+        "module": "rorschach",
+        "key_type": "file",
+        "extension": ".rorschach"
+    },
+    "cryptnet": {
+        "description": "CryptNet ransomware (2025, no decryptor)",
+        "module": "cryptnet",
+        "key_type": "file",
+        "extension": ".cryptnet"
+    },
+    "dragonforce": {
+        "description": "DragonForce ransomware (emerging variant, no key)",
+        "module": "dragonforce",
+        "key_type": "file",
+        "extension": ".dragonforce"
+    },
+    "inc": {
+        "description": "INC Ransom (targeting healthcare, no decryptor)",
+        "module": "inc",
+        "key_type": "file",
+        "extension": ".inc"
+    },
+    "blacksuit": {
+        "description": "BlackSuit ransomware (successor of Royal, no decryptor)",
+        "module": "blacksuit",
+        "key_type": "file",
+        "extension": ".blacksuit"
+    },
+    "mogilevich": {
+        "description": "Mogilevich ransomware (new, no decryptor)",
+        "module": "mogilevich",
+        "key_type": "file",
+        "extension": ".mogilevich"
+    },
+    "knight": {
+        "description": "Knight / Cyclops ransomware (builder-based, no decryptor)",
+        "module": "knight",
+        "key_type": "file",
+        "extension": ".knight"
+    },
+    "medusa": {
+        "description": "Medusa ransomware (RSA/AES, high risk, no decryptor)",
+        "module": "medusa",
+        "key_type": "file",
+        "extension": ".medusa"
+    },
+    "hunters": {
+        "description": "Hunters International ransomware (Hive fork, no key)",
+        "module": "hunters",
+        "key_type": "file",
+        "extension": ".hunters"
+    },
+    "noescape": {
+        "description": "NoEscape ransomware (RSA-4096, AES-GCM, no decryptor)",
+        "module": "noescape",
+        "key_type": "file",
+        "extension": ".noescape"
+    },
+    "cactus": {
+        "description": "Cactus ransomware (AES + ZIP wrapper, no decryptor)",
+        "module": "cactus",
+        "key_type": "file",
+        "extension": ".cactus"
+    },
+    "8base": {
+        "description": "8Base ransomware (Phobos-like, no decryptor)",
+        "module": "8base",
+        "key_type": "file",
+        "extension": ".8base"
+    },
+    "hudson": {
+        "description": "Hudson ransomware (2025, new variant, no decryptor yet)",
+        "module": "hudson",
+        "key_type": "file",
+        "extension": ".hudson"
+    },
+    "coinvault": {
+        "description": "CoinVault ransomware (Kaspersky decryptor - AES known keys)",
+        "module": "coinvault",
+        "key_type": "static",
+        "extension": ".coinvault"
+    },
+    "pclock": {
+        "description": "PClock ransomware (known key - AES decryption)",
+        "module": "pclock",
+        "key_type": "static",
+        "extension": ".pclock"
+    },
+    "radamant": {
+        "description": "Radamant ransomware (AES known key variant)",
+        "module": "radamant",
+        "key_type": "static",
+        "extension": ".radamant"
+    },
+    "telecrypt": {
+        "description": "TeleCrypt ransomware (XOR with Telegram Bot ID)",
+        "module": "telecrypt",
+        "key_type": "static",
+        "extension": ".telecrypt"
+    },
+    "xtbl": {
+        "description": "Xtbl ransomware (GlobeImposter variant - static key)",
+        "module": "xtbl",
+        "key_type": "static",
+        "extension": ".xtbl"
+    },
+    "philadelphia": {
+        "description": "Philadelphia ransomware (HiddenTear variant)",
+        "module": "philadelphia",
+        "key_type": "file",
+        "extension": ".philadelphia"
+    },
+    "crysis": {
+        "description": "CrySiS ransomware (Emsisoft decryptor available)",
+        "module": "crysis",
+        "key_type": "file",
+        "extension": ".crysis"
+    },
+    "cryptomix": {
+        "description": "CryptoMix (offline keys - partial support)",
+        "module": "cryptomix",
+        "key_type": "file",
+        "extension": ".cryptomix"
+    },
+    "btcware_alt": {
+        "description": "BTCWare ransomware (variant - static key)",
+        "module": "btcware_alt",
+        "key_type": "file",
+        "extension": ".btcware_alt"
+    },
+    "aes_ni": {
+        "description": "AES_NI ransomware (Avast decryptor - static AES key)",
+        "module": "aes_ni",
+        "key_type": "file",
+        "extension": ".aes_ni"
+    },
+    "jsworm20": {
+        "description": "JSWorm 2.0 ransomware (Blowfish encryption - partial support)",
+        "module": "jsworm20",
+        "key_type": "file",
+        "extension": ".jsworm20"
+    },
+    "hiddentear_alt": {
+        "description": "HiddenTear variant (custom key, open-source)",
+        "module": "hiddentear_alt",
+        "key_type": "file",
+        "extension": ".hiddentear_alt"
+    },
+    "stampado": {
+        "description": "Stampado ransomware (HiddenTear based - known key)",
+        "module": "stampado",
+        "key_type": "file",
+        "extension": ".stampado"
+    }
+}
